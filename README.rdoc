@@ -1,0 +1,7 @@
+= ffi-taglib
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 fistfvck. See LICENSE for details.
