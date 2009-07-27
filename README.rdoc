@@ -1,6 +1,11 @@
 = ffi-taglib
 
-Description goes here.
+A ruby-ffi binding to {TagLib}[http://developer.kde.org/~wheeler/taglib.html].
+
+see also
+- {TagLib}[http://developer.kde.org/~wheeler/taglib.html]
+- {ruby-taglib}[http://www.hakubi.us/ruby-taglib/]
+- {rtaglib}[http://rtaglib.rubyforge.org/]
 
 == Copyright
 

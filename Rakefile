@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "ffi-taglib"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{A ruby-ffi binding to TagLib.}
     gem.email = "fistfvck@gmail.com"
     gem.homepage = "http://github.com/fistfvck/ffi-taglib"
     gem.authors = ["fistfvck"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency 'ffi'
   end
 
 rescue LoadError
@@ -44,5 +45,6 @@ Rake::RDocTask.new do |rdoc|
   rdoc.title = "ffi-taglib #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
+  rdoc.options << '--main' << 'README.rdoc' << '-c' << 'UTF-8'
 end
 
